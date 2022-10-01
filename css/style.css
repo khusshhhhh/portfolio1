@@ -917,8 +917,7 @@ h3.my-profession {
 
 @media (max-width: 991px) {
   .home .home-img {
-    display: flex;
-    justify-content: center;
+    display: none;
   }
   .home .home-img::after{
   display: none;
