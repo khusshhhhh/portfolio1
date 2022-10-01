@@ -917,7 +917,8 @@ h3.my-profession {
 
 @media (max-width: 991px) {
   .home .home-img {
-    display: none;
+    margin-top: 40px;
+    left: 14%;
   }
   .service .service-item,
   .home .home-info {
