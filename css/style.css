@@ -918,7 +918,7 @@ h3.my-profession {
 @media (max-width: 991px) {
   .home .home-img {
     margin-top: 40px;
-    left: 7%;
+    right: 7%;
   }
   .home .home-img::after{
   display: none;
