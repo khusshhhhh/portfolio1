@@ -917,13 +917,12 @@ h3.my-profession {
 
 @media (max-width: 991px) {
   .home .home-img {
-    margin-top: 40px;
-    left: 5%;
-    right: 5%;
-    margin-bottom: -20px;
+    display: flex;
+    justify-content: center;
   }
   .home .home-img::after{
   display: none;
+
   }
   .service .service-item,
   .home .home-info {
