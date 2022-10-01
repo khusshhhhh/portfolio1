@@ -597,7 +597,7 @@ h3.my-profession {
 /*Services*/
 
 .service .container {
-  padding-bottom: 10px;
+  padding-bottom: 40px;
 }
 
 .service .service-item {
@@ -662,7 +662,7 @@ h3.my-profession {
 /*Package*/
 
 .pricing .container {
-  padding-bottom: 0px;
+  padding-bottom: 40px;
 }
 
 .pricing .package-item {
