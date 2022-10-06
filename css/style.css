@@ -514,6 +514,7 @@ h3.my-profession {
   flex: 0 0 50%;
   max-width: 50%;
   margin-top: 70px;
+  margin-bottom: 50px;
 }
 
 .about .about-content h3.title {
@@ -597,7 +598,7 @@ h3.my-profession {
 /*Services*/
 
 .service .container {
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 .service .service-item {
@@ -662,7 +663,7 @@ h3.my-profession {
 /*Package*/
 
 .pricing .container {
-  padding-bottom: 40px;
+  padding-bottom: 0px;
 }
 
 .pricing .package-item {
@@ -880,6 +881,28 @@ h3.my-profession {
 /*Media ques=ries*/
 
 @media (max-width: 1199px) {
+
+  .service .service-item{
+    margin-bottom: 30px;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .pricing .package-item{
+    margin-bottom: 30px;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .contact .contact-info-item{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .home-img::after{
+    display: none;
+  }
+
   .section .container {
     padding-top: 70px;
   }
@@ -919,10 +942,11 @@ h3.my-profession {
   .home .home-img {
     display: none;
   }
-  .home .home-img::after{
-  display: none;
 
+  .home-img::after{
+    display: none;
   }
+
   .service .service-item,
   .home .home-info {
     flex: 0 0 100%;
@@ -931,8 +955,8 @@ h3.my-profession {
   
   .portfolio .portfolio-item,
   .contact .contact-item {
-    flex: 0 0 50%;
-    max-width: 50%;
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 }
 
@@ -948,5 +972,11 @@ h3.my-profession {
   .contact .contact-form .col-6 {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+
+  .pricing,
+  .service,
+  .portfolio{
+    margin-bottom: 50px;
   }
 }
